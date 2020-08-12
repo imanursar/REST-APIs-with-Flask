@@ -1,0 +1,26 @@
+# verb - path - protocol
+GET / HTTP/1.1
+
+https://twitter.com/login
+GET /login HTTP/1.1
+Host: https://twitter.com
+
+https://git-scm.com/download/mac
+GET /download/mac HTTP/1.1
+Host: https://git-scm.com
+
+https://google.com/
+GET / HTTP/1.1
+host: https://google.com
+
+GET 	= retrieve data or something like HTML
+POST	= Receive data and use it
+DELETE	= remove something
+PUT		= make sure something in there, update
+OPTIONS
+HEAD
+
+REST = stateless
+one request cannot depend on any other request
+
+
